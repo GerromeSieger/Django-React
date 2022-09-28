@@ -22,7 +22,7 @@ services:
         - POSTGRES_USER=postgres
         - POSTGRES_PASSWORD=postgres
 
-    nginx:
+    frontend:
       image: gerrome/django-react_frontend:1
     #  build:
     #      context: ./frontend
