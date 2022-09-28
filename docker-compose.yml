@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
     backend:
-      image: gerrome/django-react2_backend:1
+      image: gerrome/django-react_backend:1
     #  build:
     #      context: ./backend
       volumes:
@@ -23,7 +23,7 @@ services:
         - POSTGRES_PASSWORD=postgres
 
     nginx:
-      image: gerrome/django-react2_nginx:1
+      image: gerrome/django-react_frontend:1
     #  build:
     #      context: ./frontend
       ports:
